@@ -1,0 +1,15 @@
+/* Comments in css  */
+/* Universal selector */
+/* Tag selector */
+p{
+    color: purple;
+}
+/* Class selector */
+.classone{
+    color: red;
+}
+
+/* ID selector */
+#idone{
+    color: blue;
+}
