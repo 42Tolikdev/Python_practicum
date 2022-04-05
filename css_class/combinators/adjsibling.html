@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adjective Selectors</title>
+    <style>
+        div + p {                       /* Adjacent sibling selector */
+            background-color: black; /* IN THIS CODE WE DIV + P WORKS WTH FIRTS P TAG COMES AFTER DIV */ 
+            color : white;
+        }
+    </style>
+</head>
+<body> 
+    <div>
+    <h1>Child Selectors</h1>
+    <p>Child 1 </p>
+    <p>Child 2 </p>
+    <p>Child 3 </p>
+    <section> <!-- it is child one -->
+        <p>grandson selector</p>    <!-- it is grandchild-->
+    </section>
+    </div>
+    <h3>IT IS YOUR TURN MAN</h3>
+    <p>should get black backgroun white color</p>
+    
+</body>
+</html>
