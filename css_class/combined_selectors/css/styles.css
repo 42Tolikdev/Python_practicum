@@ -1,9 +1,14 @@
-.red-text{
-    color: red;
+a:link{
+    color:blue;
 }
-.green-text{
-    color: green;
+a:visited{
+    color:green;
 }
-.bold-text{
-    font-weight: bold;
+
+a:active{
+    color:red;
+}
+
+a:hover{
+    color:black;
 }
